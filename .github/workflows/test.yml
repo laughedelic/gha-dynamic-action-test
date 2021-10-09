@@ -8,6 +8,6 @@ jobs:
     steps:
       - run: echo 'test'
       
-      - uses: .github/actions/a
+      - uses: ./.github/actions/a
 
-      - uses: .github/actions/b
+      - uses: ./.github/actions/b
