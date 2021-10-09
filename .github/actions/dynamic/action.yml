@@ -6,7 +6,7 @@ inputs:
 runs:
   using: composite
   steps:
-    - runs: echo 'dynamic'
+    - run: echo 'dynamic'
       shell: bash
 
     - uses: ${{ inputs.action-name }}
