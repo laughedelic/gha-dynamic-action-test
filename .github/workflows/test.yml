@@ -1,1 +1,13 @@
+on:
+  push:
+  workflow_dispatch:
 
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'test'
+      
+      - uses: .github/actions/a
+
+      - uses: .github/actions/b
