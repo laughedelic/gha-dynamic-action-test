@@ -13,3 +13,7 @@ jobs:
       - uses: ./.github/actions/a
 
       - uses: ./.github/actions/b
+
+      - uses: ./.github/actions/dynamic
+        with:
+          action-name: './.github/actions/a'
