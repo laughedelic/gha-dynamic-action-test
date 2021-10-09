@@ -3,5 +3,5 @@ description: b
 runs:
   using: composite
   steps:
-    - runs: echo 'action b'
+    - run: echo 'action b'
       shell: bash
