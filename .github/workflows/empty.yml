@@ -1,0 +1,8 @@
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  empty:
+    runs-on: ubuntu-latest
+    steps:
